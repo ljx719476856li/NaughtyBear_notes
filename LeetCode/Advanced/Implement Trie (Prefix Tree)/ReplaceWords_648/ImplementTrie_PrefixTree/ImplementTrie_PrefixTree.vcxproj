@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="NBS2_Trie.h" />
     <ClInclude Include="NBS_Trie.h" />
     <ClInclude Include="Trie.h" />
   </ItemGroup>

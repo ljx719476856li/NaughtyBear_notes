@@ -13,9 +13,9 @@ public:
 	void insert(const string& word) {
 		TrieNode* p = root_.get();
 		for (const char c : word) {
-			if (!p->children.count(c))
-				p->children[c] = new TrieNode();
-			p = p->children[c];
+			if (!p->children[c - 'a'])
+				p->children[c - 'a'] = new TrieNode();
+			p = p->children[c - 'a'];
 		}
 		p->is_word = true;
 	}
@@ -32,22 +32,22 @@ public:
 	}
 private:
 	struct TrieNode {
-		TrieNode() :is_word(false) {}
+		TrieNode() :is_word(false), children(26, nullptr) {}
 
 		~TrieNode() {
-			for (auto& kv : children)
-				if (kv.second) delete kv.second;
+			for (TrieNode* child : children)
+				if (child) delete child;
 		}
 
 		bool is_word;
-		unordered_map<char, TrieNode*> children;
+		vector<TrieNode*> children;
 	};
 
 	const TrieNode* find(const string& prefix) const {
 		const TrieNode* p = root_.get();
 		for (const char c : prefix) {
-			if (!p->children.count(c)) return nullptr;
-			p = p->children.at(c);
+			p = p->children[c - 'a'];
+			if (p == nullptr) break;
 		}
 		return p;
 	}

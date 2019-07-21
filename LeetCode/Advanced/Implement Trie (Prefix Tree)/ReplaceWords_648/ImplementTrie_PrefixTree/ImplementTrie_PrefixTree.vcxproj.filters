@@ -21,6 +21,9 @@
     <ClInclude Include="NBS_Trie.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="NBS2_Trie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Trie.cpp">
