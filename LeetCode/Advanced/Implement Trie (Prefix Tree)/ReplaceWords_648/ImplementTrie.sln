@@ -7,6 +7,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReplaceWords_648", "Replace
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImplementMagicDictionary_676", "ImplementMagicDictionary_676\ImplementMagicDictionary_676.vcxproj", "{9C60DE33-4343-462F-BE7F-283FD74E4038}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImplementTrie_PrefixTree", "ImplementTrie_PrefixTree\ImplementTrie_PrefixTree.vcxproj", "{B4C391D7-F8F8-474F-83F0-108D9C281FB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC91F301-BE6E-43F0-A9DF-2E2085F4EFBD}"
+	ProjectSection(SolutionItems) = preProject
+		规范.txt = 规范.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +38,14 @@ Global
 		{9C60DE33-4343-462F-BE7F-283FD74E4038}.Release|x64.Build.0 = Release|x64
 		{9C60DE33-4343-462F-BE7F-283FD74E4038}.Release|x86.ActiveCfg = Release|Win32
 		{9C60DE33-4343-462F-BE7F-283FD74E4038}.Release|x86.Build.0 = Release|Win32
+		{B4C391D7-F8F8-474F-83F0-108D9C281FB8}.Debug|x64.ActiveCfg = Debug|x64
+		{B4C391D7-F8F8-474F-83F0-108D9C281FB8}.Debug|x64.Build.0 = Debug|x64
+		{B4C391D7-F8F8-474F-83F0-108D9C281FB8}.Debug|x86.ActiveCfg = Debug|Win32
+		{B4C391D7-F8F8-474F-83F0-108D9C281FB8}.Debug|x86.Build.0 = Debug|Win32
+		{B4C391D7-F8F8-474F-83F0-108D9C281FB8}.Release|x64.ActiveCfg = Release|x64
+		{B4C391D7-F8F8-474F-83F0-108D9C281FB8}.Release|x64.Build.0 = Release|x64
+		{B4C391D7-F8F8-474F-83F0-108D9C281FB8}.Release|x86.ActiveCfg = Release|Win32
+		{B4C391D7-F8F8-474F-83F0-108D9C281FB8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
