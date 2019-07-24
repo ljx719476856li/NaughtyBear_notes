@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NBS1_Trie.h" />
+    <ClInclude Include="NBS2_Trie.h" />
+    <ClInclude Include="Trie.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{D767C8C9-C298-4B28-BF3C-76939F740456}</ProjectGuid>
