@@ -8,7 +8,7 @@ void main()
 	ln->next->next->next = new ListNode(4);
 
 	Solution sln;
-	sln.reverseList(ln);
+	sln.swapPairs(ln);
 
 	return;
 }

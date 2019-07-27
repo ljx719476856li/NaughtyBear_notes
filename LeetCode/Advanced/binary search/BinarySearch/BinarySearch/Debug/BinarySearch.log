@@ -1,0 +1,3 @@
+﻿  main.cpp
+d:\documents\gits\naughtybearleetcode\leetcode\advanced\binary search\binarysearch\binarysearch\main.cpp(4): warning C4326: “main”的返回类型应为“int”而非“void”
+  BinarySearch.vcxproj -> D:\Documents\Gits\NaughtyBearLeetCode\LeetCode\Advanced\binary search\BinarySearch\Debug\BinarySearch.exe
