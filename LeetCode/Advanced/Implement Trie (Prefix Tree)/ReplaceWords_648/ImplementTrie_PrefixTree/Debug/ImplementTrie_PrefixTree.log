@@ -1,5 +1,3 @@
 ﻿  Main.cpp
 d:\documents\gits\naughtybearleetcode\leetcode\advanced\implement trie (prefix tree)\replacewords_648\implementtrie_prefixtree\main.cpp(7): warning C4326: “main”的返回类型应为“int”而非“void”
-  Trie.cpp
-  正在生成代码...
   ImplementTrie_PrefixTree.vcxproj -> D:\Documents\Gits\NaughtyBearLeetCode\LeetCode\Advanced\Implement Trie (Prefix Tree)\ReplaceWords_648\Debug\ImplementTrie_PrefixTree.exe

@@ -1,0 +1,3 @@
+﻿  main.cpp
+d:\documents\gits\naughtybearleetcode\leetcode\advanced\linked list\linkedlist\linkedlist\main.cpp(4): warning C4326: “main”的返回类型应为“int”而非“void”
+  LinkedList.vcxproj -> D:\Documents\Gits\NaughtyBearLeetCode\LeetCode\Advanced\Linked List\LinkedList\Debug\Add Two Numbers.exe

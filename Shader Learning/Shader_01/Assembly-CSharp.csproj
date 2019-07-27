@@ -68,11 +68,14 @@
     <Compile Include="Assets\QianMo's Toolkit v1.0\ShowUI.cs" />
     <Compile Include="Assets\rotation.cs" />
     <Compile Include="Assets\rotations.cs" />
-    <None Include="Assets\Shaders\SurfaceShader.shader" />
-    <None Include="Assets\Shaders\SurfaceShader 2.shader" />
-    <None Include="Assets\Shaders\SurfaceShader 1.shader" />
-    <None Include="Assets\Shaders\SurfaceShader 3.shader" />
-    <None Include="Assets\Shaders\SurfaceShader 4.shader" />
+    <None Include="Assets\Shaders\Shader1\SurfaceShader.shader" />
+    <None Include="Assets\Shaders\Shader1\SurfaceShader 2.shader" />
+    <None Include="Assets\Shaders\Shader1\SurfaceShader 1.shader" />
+    <None Include="Assets\Shaders\Shader1\SurfaceShader 3.shader" />
+    <None Include="Assets\Shaders\Shader2\shader 2.shader" />
+    <None Include="Assets\Shaders\Shader2\shader.shader" />
+    <None Include="Assets\Shaders\Shader1\SurfaceShader 4.shader" />
+    <None Include="Assets\Shaders\Shader2\shader 1.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>G:/Documents/Shader Learning/Shader_01/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

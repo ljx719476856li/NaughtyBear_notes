@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ShaderTest 1
+  m_Shader: {fileID: 4800000, guid: 2f7a5701a734dc041bc5c650d0ac9194, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 9deccfbaf79507344a2adc0d6a7a2335, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 40e67229fc382ba41b4da89456b2b9d2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 807353195bd4a81468a072a8e093991c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _RimPower: 1
+    - _Shininess: 0.01
+    - _ShininessColor: 0.47
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Emission: {r: 0.5, g: 0.23349056, b: 0.23349056, a: 0}
+    - _EmissionColor: {r: 0.7830189, g: 0.5798772, b: 0.5798772, a: 0}
+    - _MainColor: {r: 1, g: 0.1273585, b: 0.57512593, a: 1}
+    - _RimColor: {r: 0.17, g: 0.36, b: 0.81, a: 0}
+    - _SpecColor: {r: 0.5283019, g: 0.34638664, b: 0.34638664, a: 1}
