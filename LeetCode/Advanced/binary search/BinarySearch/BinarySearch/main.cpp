@@ -3,8 +3,11 @@
 void main()
 {
 	Solution sln;
-	vector<int> vec = { 1,3,5,6 };
+	vector<int> vec = { };
+	vector<int> res;
 
 	int idx = sln.searchInsert(vec, 5);
+	res = sln.searchRange(vec, 0);
+	
 	return;
 }

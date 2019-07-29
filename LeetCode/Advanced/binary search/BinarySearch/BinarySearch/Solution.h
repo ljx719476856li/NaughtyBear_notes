@@ -21,10 +21,17 @@ public:
 	}
 
 	//在排序数组中查找元素的第一个和最后一个位置
+	//给定一个按照升序排列的整数数组 nums，和一个目标值 target。
+	//找出给定目标值在数组中的开始位置和结束位置。
 	vector<int> searchRange(vector<int>& nums, int target) 
 	{
 		vector<int> res(2, -1);
 		int left = 0, right = nums.size() - 1;
+		if (right < 0)
+			return res;
+
+
+
 		while (left < right) {
 			int mid = left + (right - left) / 2;
 			if (nums[mid] < target) left = mid + 1;
