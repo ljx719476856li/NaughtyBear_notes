@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClInclude Include="Solution.h" />
     <ClInclude Include="TimeMap.h" />
+    <ClInclude Include="TimeMap2.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
