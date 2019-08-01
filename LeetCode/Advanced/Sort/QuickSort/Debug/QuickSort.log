@@ -1,1 +1,18 @@
-﻿
+﻿  main.cpp
+g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\quicksort\main.cpp(6): warning C4326: “main”的返回类型应为“int”而非“void”
+g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\quicksort\quicksort.hpp(98): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+  g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\quicksort\main.cpp(17): note: 参见对正在编译的函数 模板 实例化“void Quick::QuickSort2<float>(std::vector<float,std::allocator<_Ty>> &,int,int)”的引用
+          with
+          [
+              _Ty=float
+          ]
+g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\quicksort\quicksort.hpp(115): warning C4244: “=”: 从“int”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+  QuickSort.vcxproj -> G:\Documents\GitHub\NaughtyBearLeetCode\LeetCode\Advanced\Sort\Debug\QuickSort.exe
