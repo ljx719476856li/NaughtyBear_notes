@@ -1,1 +1,3 @@
-﻿
+﻿  main.cpp
+g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\heapsort\main.cpp(4): warning C4326: “main”的返回类型应为“int”而非“void”
+  HeapSort.vcxproj -> G:\Documents\GitHub\NaughtyBearLeetCode\LeetCode\Advanced\Sort\Debug\HeapSort.exe
