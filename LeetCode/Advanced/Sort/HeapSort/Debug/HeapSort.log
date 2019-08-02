@@ -1,3 +1,25 @@
 ﻿  main.cpp
-g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\heapsort\main.cpp(4): warning C4326: “main”的返回类型应为“int”而非“void”
-  HeapSort.vcxproj -> G:\Documents\GitHub\NaughtyBearLeetCode\LeetCode\Advanced\Sort\Debug\HeapSort.exe
+g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\heapsort\main.cpp(5): warning C4326: “main”的返回类型应为“int”而非“void”
+g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\heapsort\heap.hpp(58): error C2440: “=”: 无法从“HeapDatabase<T> *”转换为“T *”
+          with
+          [
+              T=int *
+          ]
+  g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\heapsort\heap.hpp(58): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\heapsort\heap.hpp(56): note: 编译 类 模板 成员函数 "Heap<int *>::Heap(T)" 时
+          with
+          [
+              T=int *
+          ]
+  g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\heapsort\main.cpp(9): note: 参见对正在编译的函数 模板 实例化“Heap<int *>::Heap(T)”的引用
+          with
+          [
+              T=int *
+          ]
+  g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\heapsort\main.cpp(9): note: 参见对正在编译的 类 模板 实例化 "Heap<int *>" 的引用
+g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\heapsort\heap.hpp(59): error C2440: “=”: 无法从“T”转换为“T *”
+          with
+          [
+              T=int *
+          ]
+  g:\documents\github\naughtybearleetcode\leetcode\advanced\sort\heapsort\heap.hpp(59): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换

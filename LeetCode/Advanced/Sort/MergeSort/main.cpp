@@ -55,10 +55,15 @@ void merge_sort_recursive(T arr[], T reg[], int start, int end) {
 	for (k = start; k <= end; k++)
 		arr[k] = reg[k];
 }
-//整數或浮點數皆可使用,若要使用物件(class)時必須設定"小於"(<)的運算子功能
-template<typename T>
-void merge_sort(T arr[], const int len) {
-	T *reg = new T[len];
-	merge_sort_recursive(arr, reg, 0, len - 1);
-	delete[] reg;
+////整數或浮點數皆可使用,若要使用物件(class)時必須設定"小於"(<)的運算子功能
+//template<typename T>
+//void merge_sort(T arr[], const int len) {
+//	T *reg = new T[len];
+//	merge_sort_recursive(arr, reg, 0, len - 1);
+//	delete[] reg;
+//}
+
+int main()
+{
+	return -1;
 }

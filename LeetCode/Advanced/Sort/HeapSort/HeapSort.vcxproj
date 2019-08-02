@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Heap.hpp" />
     <ClInclude Include="HeapSort.hpp" />
   </ItemGroup>
   <ItemGroup>
