@@ -95,7 +95,7 @@ void Heap<T>::MinHeapify(int start, int end)
 			son++;
 		if (m_heapDatabase->_heap[dad] < m_heapDatabase->_heap[son]) //如果父节点小于子节点代表调整完毕，直接跳出函数
 			return;
-		else { //否則交換父子內容再繼續子節點和孫節點比較
+		else { //否则交换父子内容再继续子节点和孙节点比较
 			std::swap(m_heapDatabase->_heap[dad], m_heapDatabase->_heap[son]);
 			dad = son;
 			son = dad * 2 + 1;
