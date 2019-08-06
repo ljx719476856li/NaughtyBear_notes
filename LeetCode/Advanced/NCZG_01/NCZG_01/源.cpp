@@ -37,7 +37,7 @@ int Solution::Merge(int arr[], int left, int mid, int right)
 {
 	int len = right - left + 1;
 	int* help = new int[len];
-	int idx = left; //移动中间数组的help的idx
+	int idx = 0; //移动中间数组的help的idx
 	int iLeft = left;
 	int iRight = mid + 1;
 	int res = 0;
@@ -54,7 +54,7 @@ int Solution::Merge(int arr[], int left, int mid, int right)
 		help[idx++] = arr[iRight++];
 
 	for (int i = 0; i < len; i++)
-		arr[i] = help[i];
+		arr[left + i] = help[i];
 
 	return res;
 }

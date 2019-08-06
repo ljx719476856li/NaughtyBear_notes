@@ -65,7 +65,7 @@ void merge_sorts(T arr[], const int len) {
 
 int main()
 {
-	int a[] = { 1, 3, 4, 2, 5 };
-	merge_sorts(a, 5);
+	int a[] = { 1, 12, 4, 2, 5, 6, 3, 12, 0 };
+	merge_sorts(a,(sizeof(a)/sizeof(int)));
 	return -1;
 }
