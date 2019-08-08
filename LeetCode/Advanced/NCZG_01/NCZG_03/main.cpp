@@ -126,6 +126,8 @@ void Stack::Swap()
 	m_queueData = temp;
 }
 
+//for test
+/*
 int main()
 {
 	Stack stack;
@@ -162,3 +164,4 @@ int main()
 
 	return 0;
 }
+*/
