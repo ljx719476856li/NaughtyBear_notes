@@ -116,6 +116,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GetMinStack.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="数组模拟队列与堆.cpp" />
   </ItemGroup>

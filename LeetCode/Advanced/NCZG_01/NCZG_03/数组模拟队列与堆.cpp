@@ -109,7 +109,7 @@ int Queue::Peek()
 
 
 //for test
-int main()
+/*int main()
 {
 	Stack stack(5);
 	stack.Push(1);
@@ -142,4 +142,4 @@ int main()
 
 	return -1;
 
-}
+}*/

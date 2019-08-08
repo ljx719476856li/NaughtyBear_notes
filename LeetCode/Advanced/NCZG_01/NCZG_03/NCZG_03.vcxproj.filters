@@ -21,5 +21,8 @@
     <ClCompile Include="数组模拟队列与堆.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="GetMinStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
