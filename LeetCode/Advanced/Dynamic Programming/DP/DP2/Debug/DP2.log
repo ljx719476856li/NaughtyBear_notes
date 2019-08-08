@@ -1,4 +1,4 @@
 ﻿  main.cpp
-d:\documents\gits\naughtybearleetcode\leetcode\advanced\dynamic programming\dp\dp2\main.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
-d:\documents\gits\naughtybearleetcode\leetcode\advanced\dynamic programming\dp\dp2\main.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
-  DP2.vcxproj -> D:\Documents\Gits\NaughtyBearLeetCode\LeetCode\Advanced\Dynamic Programming\DP\Debug\DP2.exe
+g:\documents\github\naughtybearleetcode\leetcode\advanced\dynamic programming\dp\dp2\main.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+g:\documents\github\naughtybearleetcode\leetcode\advanced\dynamic programming\dp\dp2\main.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
+  DP2.vcxproj -> G:\Documents\GitHub\NaughtyBearLeetCode\LeetCode\Advanced\Dynamic Programming\DP\Debug\DP2.exe
