@@ -1,3 +1,2 @@
 ﻿  DogCatQueue.cpp
-g:\documents\github\naughtybearleetcode\leetcode\advanced\nczg_01\nczg_03_02\dogcatqueue.cpp(122): warning C4715: “DogCatQueue::PollDog”: 不是所有的控件路径都返回值
-  NCZG_03_02.vcxproj -> G:\Documents\GitHub\NaughtyBearLeetCode\LeetCode\Advanced\NCZG_01\Debug\NCZG_03_02.exe
+  NCZG_03_02.vcxproj -> D:\Documents\Gits\NaughtyBearLeetCode\LeetCode\Advanced\NCZG_01\Debug\NCZG_03_02.exe
