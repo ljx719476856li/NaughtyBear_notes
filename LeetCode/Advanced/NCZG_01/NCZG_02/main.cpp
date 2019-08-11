@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <Random>
+#include <random>
 using namespace std;
 
 
@@ -54,12 +54,12 @@ vector<int> Solution::Partition(vector<int>&  vec, int left, int right)
 	return { less + 1, more };
 }
 
-//int main()
-//{
-//	vector<int> vec = { 6, 5, 10, 3, 2, 1 };
-//
-//	Solution sln;
-//	sln.QuickSort(vec);
-//
-//	return -1;
-//}
+int main()
+{
+	vector<int> vec = { 6, 5, 10, 3, 2, 1 };
+
+	Solution sln;
+	sln.QuickSort(vec);
+
+	return -1;
+}

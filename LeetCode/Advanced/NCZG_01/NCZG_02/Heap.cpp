@@ -100,13 +100,13 @@ int Solution::HeapPop(vector<int>& vec, int idx)
 }
 
 
-int main()
-{
-	vector<int> vec = { 6, 5, 4, 3, 2, 1 };
-
-	Solution sln;
-	sln.HeapSort(vec);
-	int num = sln.HeapPop(vec, 4);
-	sln.HeapDelete(vec, 0);
-	return -1;
-}
+//int main()
+//{
+//	vector<int> vec = { 6, 5, 4, 3, 2, 1 };
+//
+//	Solution sln;
+//	sln.HeapSort(vec);
+//	int num = sln.HeapPop(vec, 4);
+//	sln.HeapDelete(vec, 0);
+//	return -1;
+//}
