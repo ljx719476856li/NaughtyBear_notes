@@ -145,6 +145,7 @@ bool DogCatQueue::isCatEmpty()
 	return m_cat.empty();
 }
 
+/*
 int main()
 {
 	DogCatQueue test;
@@ -184,3 +185,4 @@ int main()
 
 	return 0;
 }
+*/

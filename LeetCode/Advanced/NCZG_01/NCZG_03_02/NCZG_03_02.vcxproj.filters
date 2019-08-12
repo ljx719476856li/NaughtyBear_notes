@@ -21,5 +21,11 @@
     <ClCompile Include="DogCatQueue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="IsPalindromeList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallerEqualBigger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

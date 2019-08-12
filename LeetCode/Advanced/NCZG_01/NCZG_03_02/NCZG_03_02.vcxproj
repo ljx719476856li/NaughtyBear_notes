@@ -116,7 +116,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DogCatQueue.cpp" />
+    <ClCompile Include="IsPalindromeList.cpp" />
     <ClCompile Include="PrintMatrixSpiralOrder.cpp" />
+    <ClCompile Include="SmallerEqualBigger.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
