@@ -27,5 +27,11 @@
     <ClCompile Include="SmallerEqualBigger.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CopyListWithRandom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FindFirstIntersectNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

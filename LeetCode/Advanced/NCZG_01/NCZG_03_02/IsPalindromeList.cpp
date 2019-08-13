@@ -139,6 +139,7 @@ bool PalindromeList::IsPalindromeList_interview()
 	return true;
 }
 
+/*
 int main()
 {
 	PalindromeList sln;
@@ -154,3 +155,4 @@ int main()
 	bool res3 = sln.IsPalindromeList_interview();
 	return 0;
 }
+*/

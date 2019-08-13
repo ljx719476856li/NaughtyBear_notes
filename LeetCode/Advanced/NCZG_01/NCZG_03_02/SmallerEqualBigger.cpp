@@ -2,12 +2,11 @@
 using namespace std;
 
 struct Node
-{
-	int value;
+{	
+	int value; 
 	Node* next;
 };
 
-int main()
-{
-
-}
+//int main()
+//{ 
+//}
