@@ -1,6 +1,23 @@
 #include <iostream>
 using namespace std;
 
+/*
+题目：
+1. 在二叉树的中序遍历的序列中，node的下一个节点叫做node的后继节点。在二叉树中找到一个节点的后继节点
+2. 在二叉树的中序遍历的序列中，node的上一个节点叫做node的后继节点。在二叉树中找到一个节点的前继节点
+
+思路：
+（1）寻找一个节点在二叉树，中序遍历中的后继节点，分为两种情况(中序遍历特点：左 中 右)
+	1). 当前节点有右子树时，后继节点一定会是当前节点的右子树的最左子叶
+	2). 当前节点没有右子树时，通过parent节点往上一移动curNode，curNode的parent，当parent节点的左节点是curNode时，parent即为当前节点的后继节点(此处的curNode不一定是当前节点)
+		i). curNode = parent;  parent = curNode.parent; ——> 通过parent节点往上一移动curNode，curNode的parent
+		ii). 注意边界，parent != nullptr；
+
+（2）寻找一个节点在二叉树，中序遍历中的前继节点，分为两种情况(中序遍历特点：左 中 右)
+	1). 当前节点有左子树时，前继节点一定会是当前节点的左子树的最右子叶
+	2). 当前节点没有左子树时，通过parent节点往上一移动curNode，curNode的parent，当parent节点的右节点是curNode时，parent即为当前节点的前继节点
+*/
+
 struct Node
 {
 public:
@@ -25,7 +42,7 @@ Node* SuccessorNode::getSuccessorNode(Node* node)
 		return nullptr;
 
 	if (node->right != nullptr)
-		return getLeftMost(node);
+		return getLeftMost(node->right);
 	else
 	{
 		Node* parent = node->parent;
