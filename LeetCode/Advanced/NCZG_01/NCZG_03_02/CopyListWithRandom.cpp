@@ -123,6 +123,7 @@ Node* CopyListWithRandom::CopyList2()
 	return res;
 }
 
+/*
 int main()
 {
 	CopyListWithRandom sln;
@@ -146,3 +147,4 @@ int main()
 	Node* res2 = sln.CopyList2();
 	return 0;
 }
+*/

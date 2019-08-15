@@ -1,5 +1,7 @@
-﻿  main.cpp
+﻿  FindFirstIntersectNode.cpp
+  main.cpp
 g:\documents\github\naughtybearleetcode\leetcode\advanced\nczg_01\中位数问题\main.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
 g:\documents\github\naughtybearleetcode\leetcode\advanced\nczg_01\中位数问题\main.cpp(40): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
 g:\documents\github\naughtybearleetcode\leetcode\advanced\nczg_01\中位数问题\main.cpp(33): warning C4715: “Solution::GetMidNumber”: 不是所有的控件路径都返回值
   中位数问题.vcxproj -> G:\Documents\GitHub\NaughtyBearLeetCode\LeetCode\Advanced\NCZG_01\Debug\中位数问题.exe

@@ -75,12 +75,12 @@ void Solution::Heapify(vector<int> & vec, int idx, int heapSize)
 
 }
 
-int main()
-{
-	vector<int> vec = { 1, 2, 3, 4, 5, 6, 0};
-	Solution sln;
-
-	sln.HeapSort(vec);
-
-	return -1;
-}
+//int main()
+//{
+//	vector<int> vec = { 1, 2, 3, 4, 5, 6, 0};
+//	Solution sln;
+//
+//	sln.HeapSort(vec);
+//
+//	return -1;
+//}
