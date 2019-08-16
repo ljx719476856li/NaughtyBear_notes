@@ -1,3 +1,4 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(NCZG_04.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(NCZG_04.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
   SerializeAndReconstructTree.cpp
-  NCZG_04.vcxproj -> G:\Documents\GitHub\NaughtyBearLeetCode\LeetCode\Advanced\NCZG_01\Debug\NCZG_04_二叉树.exe
+d:\documents\gits\naughtybearleetcode\leetcode\advanced\nczg_01\nczg_04\serializeandreconstructtree.cpp(59): warning C4018: “<”: 有符号/无符号不匹配
+  NCZG_04.vcxproj -> D:\Documents\Gits\NaughtyBearLeetCode\LeetCode\Advanced\NCZG_01\Debug\NCZG_04_二叉树.exe

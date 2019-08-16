@@ -24,6 +24,9 @@
     <ClCompile Include="SerializeAndReconstructTree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="IsBalancedTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PrintBinaryTree.hpp">

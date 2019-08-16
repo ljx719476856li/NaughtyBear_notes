@@ -16,11 +16,6 @@
 		3). 特别提出，层序遍历概念
 */
 
-struct Node : public Nodee
-{
-	Node(int data) : Nodee(data) {}
-};
-
 class SerializeAndReconsturctTrees
 {
 public:
@@ -32,9 +27,14 @@ public:
 	//处理序列化字符信息，分解到对应的队列中存储
 	//parameter：序列化字符串
 	//return：返回重构二叉树的根节点
-	Node* ReconByPreString(string str);
+	Nodee* ReconByPreString(string str);
 
-	Node* ReconPreOrder(queue<string> preQueue);
+	Nodee* ReconPreOrder(queue<string> preQueue);
+
+
+	string serialByPre(Nodee* head);
+	Nodee* reconByPreString(string preStr);
+	Nodee* reconPreOrder(queue<string> queue);
 
 };
 
@@ -51,9 +51,9 @@ string SerializeAndReconsturctTrees::SerializeByTree(Nodee* head)
 	return res;
 }
 
-Node* SerializeAndReconsturctTrees::ReconByPreString(string preStr)
+Nodee* SerializeAndReconsturctTrees::ReconByPreString(string preStr)
 {
-	vector<string> values(3);
+	vector<string> values;
 	SplitString(preStr, values, "_");
 	queue<string> queueStr;
 	for (int i = 0; i <values.size(); i++)
@@ -62,32 +62,75 @@ Node* SerializeAndReconsturctTrees::ReconByPreString(string preStr)
 	return ReconPreOrder(queueStr);
 }
 
-Node* SerializeAndReconsturctTrees::ReconPreOrder(queue<string> preQueue)
+Nodee* SerializeAndReconsturctTrees::ReconPreOrder(queue<string> preQueue)
 {
 	string value = preQueue.front();
 	preQueue.pop();
 	//当获取到#时，便可返回了
+	if (value._Equal("#"))
+	{
+		return nullptr;
+	}
 
 	
-	//Node* head = new Node(static_cast<int>(strtol(value.c_str(), &end, 16)););
-		ReconPreOrder(preQueue)
+	Nodee* head = new Nodee(atoi(value.c_str()));
+	//Nodee* head = new Nodee(static_cast<int>(strtol(value.c_str(), &end, 16)););
+	head->left = ReconPreOrder(preQueue);
+	head->right = ReconPreOrder(preQueue);
+
+	return head;
 }
+
+string SerializeAndReconsturctTrees::serialByPre(Nodee* head) {
+	if (head == nullptr) {
+		return "#!";
+	}
+	string res = to_string(head->value) + "!";
+	res += serialByPre(head->left);
+	res += serialByPre(head->right);
+	return res;
+}
+
+Nodee* SerializeAndReconsturctTrees::reconByPreString(string preStr) {
+	vector<string> values;
+	SplitString(preStr, values, "!");
+	queue<string> queue;
+	for (int i = 0; i != values.size(); i++) {
+		queue.push(values[i]);
+	}
+	return reconPreOrder(queue);
+}
+
+Nodee* SerializeAndReconsturctTrees::reconPreOrder(queue<string> queue) {
+	string value = queue.front();
+	queue.pop();
+	if (value._Equal("#")) {
+		return nullptr;
+	}
+	Nodee* head = new Nodee(atoi(value.c_str()));
+	head->left = reconPreOrder(queue);
+	head->right = reconPreOrder(queue);
+	return head;
+}
+
 int main()
 {
 	PrintBinaryTree pbt;
 
-	Node* head;
-	head = new Node(100);
-	head->left = new Node(21);
-	head->left->left = new Node(37);
-	head->right = new Node(-42);
-	head->right->left = new Node(0);
-	head->right->right = new Node(666);
+	Nodee* head;
+	head = new Nodee(100);
+	head->left = new Nodee(21);
+	head->left->left = new Nodee(37);
+	head->right = new Nodee(-42);
+	head->right->left = new Nodee(0);
+	head->right->right = new Nodee(666);
 	pbt.printTree(head);
 
 	SerializeAndReconsturctTrees sart;
-	string res = sart.SerializeByTree(head);
+	string res = sart.serialByPre(head);
 	cout << res << endl;
+	Nodee* head2 = sart.reconByPreString(res);
+	pbt.printTree(head2);
 
 	return 0;
 }
