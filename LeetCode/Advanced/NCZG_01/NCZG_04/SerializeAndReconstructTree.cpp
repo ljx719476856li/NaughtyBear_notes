@@ -113,6 +113,7 @@ Nodee* SerializeAndReconsturctTrees::reconPreOrder(queue<string> queue) {
 	return head;
 }
 
+/*
 int main()
 {
 	PrintBinaryTree pbt;
@@ -134,3 +135,4 @@ int main()
 
 	return 0;
 }
+*/
