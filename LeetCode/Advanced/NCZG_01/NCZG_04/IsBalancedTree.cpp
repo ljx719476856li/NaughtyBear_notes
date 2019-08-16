@@ -69,6 +69,7 @@ ReturnTreeData* IsBalancedTree::Process(Node* node)
 	return new ReturnTreeData(true, max(left->treeHeight, right->treeHeight) + 1);
 }
 
+/*
 int main()
 {
 	Node* node = new Node(1);
@@ -89,3 +90,4 @@ int main()
 
 	return 0;
 }
+*/

@@ -1,3 +1,4 @@
+#include <deque>
 #include <queue>
 #include "PrintBinaryTree.hpp"
 
@@ -29,12 +30,12 @@ public:
 	//return：返回重构二叉树的根节点
 	Nodee* ReconByPreString(string str);
 
-	Nodee* ReconPreOrder(queue<string> preQueue);
+	Nodee* ReconPreOrder(deque<string> preQueue);
 
 
 	string serialByPre(Nodee* head);
 	Nodee* reconByPreString(string preStr);
-	Nodee* reconPreOrder(queue<string> queue);
+	Nodee* reconPreOrder(deque<string> queue);
 
 };
 
@@ -55,17 +56,17 @@ Nodee* SerializeAndReconsturctTrees::ReconByPreString(string preStr)
 {
 	vector<string> values;
 	SplitString(preStr, values, "_");
-	queue<string> queueStr;
-	for (int i = 0; i <values.size(); i++)
-		queueStr.push(values[i]);
+	deque<string> queueStr;
+	for (int i = 0; i < values.size(); i++)
+		queueStr.push_front(values[i]);//queueStr.push(values[i]);
 
 	return ReconPreOrder(queueStr);
 }
 
-Nodee* SerializeAndReconsturctTrees::ReconPreOrder(queue<string> preQueue)
+Nodee* SerializeAndReconsturctTrees::ReconPreOrder(deque<string> preQueue)
 {
 	string value = preQueue.front();
-	preQueue.pop();
+	preQueue.pop_back();
 	//当获取到#时，便可返回了
 	if (value._Equal("#"))
 	{
@@ -94,16 +95,16 @@ string SerializeAndReconsturctTrees::serialByPre(Nodee* head) {
 Nodee* SerializeAndReconsturctTrees::reconByPreString(string preStr) {
 	vector<string> values;
 	SplitString(preStr, values, "!");
-	queue<string> queue;
+	deque<string> queue;
 	for (int i = 0; i != values.size(); i++) {
-		queue.push(values[i]);
+		queue.push_front(values[i]);
 	}
 	return reconPreOrder(queue);
 }
 
-Nodee* SerializeAndReconsturctTrees::reconPreOrder(queue<string> queue) {
+Nodee* SerializeAndReconsturctTrees::reconPreOrder(deque<string> queue) {
 	string value = queue.front();
-	queue.pop();
+	queue.pop_back();
 	if (value._Equal("#")) {
 		return nullptr;
 	}
