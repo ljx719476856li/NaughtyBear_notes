@@ -57,7 +57,7 @@ int Solution::maxGap(vector<int> vec)
 			beforeMax = maxsNum[i];
 		}
 	}
-
+	
 	return res;
 }
 
