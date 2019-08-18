@@ -40,25 +40,16 @@ public:
 };
 bool IsBSTAndCBT::IsCBTree(Node* head)
 {
+	//空树也是完全二叉树
 	if (head == nullptr)
 		return true;
-	bool isLeaf = false;
+
 	Node* left = nullptr;
 	Node* right = nullptr;
-	deque<Node*> help;
-	help.push_back(head);
 
-	while (help.empty())
-	{
-		head = help.back();
-		help.pop_back();
-		left = head->left;
-		right = head->right;
-		if ((isLeaf && (left != nullptr && right != nullptr) || (left == nullptr && right != nullptr) ))
-			return false;
-	}
 
-	return false;
+
+
 }
 
 bool IsBSTAndCBT::IsBSTree(Node* head)
