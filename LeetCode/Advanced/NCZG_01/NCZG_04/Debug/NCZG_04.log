@@ -1,3 +1,5 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(NCZG_04.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
-  IsBSTAndCBT.cpp
+  CompleteTreeNodeNumber.cpp
+g:\documents\github\naughtybearleetcode\leetcode\advanced\nczg_01\nczg_04\completetreenodenumber.cpp(62): warning C4554: “<<”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+g:\documents\github\naughtybearleetcode\leetcode\advanced\nczg_01\nczg_04\completetreenodenumber.cpp(64): warning C4554: “<<”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
   NCZG_04.vcxproj -> G:\Documents\GitHub\NaughtyBearLeetCode\LeetCode\Advanced\NCZG_01\Debug\NCZG_04_二叉树.exe
