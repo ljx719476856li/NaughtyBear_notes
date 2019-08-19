@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stack>
+#include <queue>
 using namespace std;
 
 /*
@@ -21,6 +22,11 @@ using namespace std;
 			i). 一个节点有右孩子，但是没有左孩子
 			ii). 不满足(1)时，一个节点的左右孩子不全在，则往后节点都必须是叶节点
 		(3) 其中只要不满足条件(2)的二叉树即为完全二叉树(Completely Binary Tree)
+
+		
+PS：while循环处的边界，是如何扣定的
+			while (!help.empty())
+			while (!help.empty() || head != nullptr)
 */
 
 struct Node
@@ -44,12 +50,31 @@ bool IsBSTAndCBT::IsCBTree(Node* head)
 	if (head == nullptr)
 		return true;
 
+	bool leaf = false;
 	Node* left = nullptr;
 	Node* right = nullptr;
-
-
-
-
+	queue<Node*> help;
+	help.push(head);
+	while (!help.empty())
+	{
+		head = help.front();
+		help.pop();
+		left = head->left;
+		right = head->right;
+		if ((leaf && (left != nullptr || right != nullptr))
+			|| (left == nullptr && right != nullptr))
+		{
+			return false;
+		}
+		
+		if (left != nullptr)
+			help.push(left);
+		if (right != nullptr)
+			help.push(right);
+		else //如果出现right为nullptr情况，后续节点都必须是叶节点
+			leaf = true;
+	}
+	return true;
 }
 
 bool IsBSTAndCBT::IsBSTree(Node* head)
@@ -79,6 +104,7 @@ bool IsBSTAndCBT::IsBSTree(Node* head)
 	return res;
 }
 
+/*
 int main()
 {
 	Node* node = new Node(5);
@@ -92,10 +118,23 @@ int main()
 	node->right->right = new Node(8);
 	node->right->right->left = new Node(9);
 
+	Node* node2 = new Node(5);
+	node2->left = new Node(3);
+	node2->right = new Node(8);
+	node2->left->left = new Node(2);
+	node2->left->right = new Node(4);
+	node2->right->left = new Node(6);
+	node2->left->left->right = new Node(7);
+	node2->right->right = new Node(8);
+	node2->left->left->left = new Node(9);
+
 
 	IsBSTAndCBT sln;
 	bool res = sln.IsBSTree(node);
 	cout << (res ? "BT is BST" : "BT is not BST");
 	
+	res = sln.IsCBTree(node2);
+	cout << (res ? "BT is CBT" : "BT is not CBT");
+
 	return 0;
-}
+}*/

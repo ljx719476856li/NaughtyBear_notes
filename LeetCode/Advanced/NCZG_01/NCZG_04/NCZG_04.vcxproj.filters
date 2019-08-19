@@ -30,6 +30,9 @@
     <ClCompile Include="IsBSTAndCBT.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CompleteTreeNodeNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PrintBinaryTree.hpp">

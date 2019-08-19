@@ -117,6 +117,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BinaryTree.cpp" />
+    <ClCompile Include="CompleteTreeNodeNumber.cpp" />
     <ClCompile Include="IsBalancedTree.cpp" />
     <ClCompile Include="IsBSTAndCBT.cpp" />
     <ClCompile Include="SerializeAndReconstructTree.cpp" />
