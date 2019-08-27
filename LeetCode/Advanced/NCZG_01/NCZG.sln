@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NCZG_04_二叉树", "NCZG_0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NCZG_05_第七章", "NCZG_05_第七章\NCZG_05_第七章.vcxproj", "{F01FF5FE-EEFA-4590-9007-632BC9BDF528}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NCZG_06_DP", "NCZG_06_DP\NCZG_06_DP.vcxproj", "{A80F7EF9-9F96-41ED-81AF-3B6970733C8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{F01FF5FE-EEFA-4590-9007-632BC9BDF528}.Release|x64.Build.0 = Release|x64
 		{F01FF5FE-EEFA-4590-9007-632BC9BDF528}.Release|x86.ActiveCfg = Release|Win32
 		{F01FF5FE-EEFA-4590-9007-632BC9BDF528}.Release|x86.Build.0 = Release|Win32
+		{A80F7EF9-9F96-41ED-81AF-3B6970733C8F}.Debug|x64.ActiveCfg = Debug|x64
+		{A80F7EF9-9F96-41ED-81AF-3B6970733C8F}.Debug|x64.Build.0 = Debug|x64
+		{A80F7EF9-9F96-41ED-81AF-3B6970733C8F}.Debug|x86.ActiveCfg = Debug|Win32
+		{A80F7EF9-9F96-41ED-81AF-3B6970733C8F}.Debug|x86.Build.0 = Debug|Win32
+		{A80F7EF9-9F96-41ED-81AF-3B6970733C8F}.Release|x64.ActiveCfg = Release|x64
+		{A80F7EF9-9F96-41ED-81AF-3B6970733C8F}.Release|x64.Build.0 = Release|x64
+		{A80F7EF9-9F96-41ED-81AF-3B6970733C8F}.Release|x86.ActiveCfg = Release|Win32
+		{A80F7EF9-9F96-41ED-81AF-3B6970733C8F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
