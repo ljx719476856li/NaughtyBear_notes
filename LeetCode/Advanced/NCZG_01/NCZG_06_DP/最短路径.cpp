@@ -111,6 +111,7 @@ int MinPath::Process(vector<vector<int>> matrix, int x, int y)
 
 }
 
+/*
 int main()
 {
 	vector<vector<int>> matrix = { {3, 2, 1, 0}, {7, 5, 0, 1}, {3, 7, 6, 2} };
@@ -121,4 +122,5 @@ int main()
 	int res = sln.DPProcess(matrix);
 	return 0;
 }
+*/
 

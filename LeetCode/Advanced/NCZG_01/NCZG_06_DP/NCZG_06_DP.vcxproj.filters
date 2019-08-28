@@ -21,5 +21,8 @@
     <ClCompile Include="最短路径.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MoneyProblem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
