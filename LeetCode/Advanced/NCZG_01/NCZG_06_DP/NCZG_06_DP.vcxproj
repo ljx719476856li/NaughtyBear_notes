@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="knapsack.cpp" />
     <ClCompile Include="MoneyProblem.cpp" />
     <ClCompile Include="最短路径.cpp" />
     <ClCompile Include="求N!.cpp" />

@@ -58,11 +58,11 @@ bool MoneyProblem::Process(vector<int> nums, int sum, int idx, int aim)
 		);
 }
 
-int main()
-{
-	vector<int> nums = { 3, 2, 7 };
-	MoneyProblem sln;
-	bool flag = sln.DP(nums, 10);
-	flag = sln.Process(nums, 0, 0, 10);
-	return 0;
-}
+//int main()
+//{
+//	vector<int> nums = { 3, 2, 7 };
+//	MoneyProblem sln;
+//	bool flag = sln.DP(nums, 10);
+//	flag = sln.Process(nums, 0, 0, 10);
+//	return 0;
+//}
