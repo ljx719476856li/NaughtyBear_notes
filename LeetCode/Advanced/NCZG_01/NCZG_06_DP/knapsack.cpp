@@ -42,7 +42,7 @@ public:
 
 int Knapsack::DP(vector<int> values, vector<int> weights, int bag)
 {
-	vector<vector<int>> dp(values.size() + 1, vector<int>(weights.size() + 1, 0));
+	vector<vector<int>> dp(values.size() + 1, vector<int>(bag + 1, 0));
 
 	for (int i = values.size() - 1; i >= 0; i--)
 	{
