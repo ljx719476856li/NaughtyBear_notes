@@ -37,6 +37,8 @@
 * [❓ Problems](#-problems)
 * [💻 操作系统](https://github.com/ljx719476856li/NaughtyBear_notes/blob/master/summary/ComputerSystem.md)
 * [☁️ 计算机网络](#️-计算机网络)
+* [👾 计算机图形学](#-计算机图形学)
+* [🌈 Shader/CG语言](#-Shader/CG语言)
 * [🌩 网络编程](#-网络编程)
 * [💾 数据库](#-数据库)
 * [📏 设计模式](#-设计模式)
@@ -2413,6 +2415,10 @@ TRACE | 回显服务器收到的请求，主要用于测试或诊断
     * 用于内部网络或网络服务供应商自动分配 IP 地址给用户
     * 用于内部网络管理员作为对所有电脑作中央管理的手段
 * SNMP（Simple Network Management Protocol，简单网络管理协议）构成了互联网工程工作小组（IETF，Internet Engineering Task Force）定义的 Internet 协议族的一部分。该协议能够支持网络管理系统，用以监测连接到网络上的设备是否有任何引起管理上关注的情况。
+
+## 👾 计算机图形学
+
+## 🌈 Shader/CG语言
 
 ## 🌩 网络编程
 
