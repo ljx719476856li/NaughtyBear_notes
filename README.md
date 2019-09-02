@@ -1,5 +1,12 @@
-# NaughtyBearLeetCode
-加油刷库
+# NaughtyBearNotes
+<b><details><summary>NaughtyBear 笔记 搬运+总结</summary></b>
+[📚 C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验](https://github.com/huihut/interview)  
+[🐼 准备秋招，欢迎来树上取果实](https://github.com/linw7/Skill-Tree)  
+[⛵️ 关于炫酷的Unity3D Shader | About Cool Unity3D Shaders](https://github.com/QianMo/Awesome-Unity-Shader)
+
+
+
+</details>
 
 <div align="center">
 📖 Github
