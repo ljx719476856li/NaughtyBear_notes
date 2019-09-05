@@ -86,8 +86,8 @@ int main()
 	int bag = 11;
 
 	Knapsack sln;
-	cout << sln.maxValue(values, weights, bag);
-	cout << sln.DP(values, weights, bag);
+	cout << sln.maxValue(values, weights, bag) << endl;
+	cout << sln.DP(values, weights, bag) << endl;
 
 	return 0;
 }

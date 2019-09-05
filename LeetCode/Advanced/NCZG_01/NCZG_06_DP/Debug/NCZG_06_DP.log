@@ -1,2 +1,7 @@
-﻿  knapsack.cpp
-  NCZG_06_DP.vcxproj -> D:\Documents\Gits\NaughtyBearLeetCode\LeetCode\Advanced\NCZG_01\Debug\NCZG_06_DP.exe
+﻿  MoneyProblem.cpp
+g:\documents\github\naughtybearleetcode\leetcode\advanced\nczg_01\nczg_06_dp\moneyproblem.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+  knapsack.cpp
+  最短路径.cpp
+  求N!.cpp
+  正在生成代码...
+  NCZG_06_DP.vcxproj -> G:\Documents\GitHub\NaughtyBearLeetCode\LeetCode\Advanced\NCZG_01\Debug\NCZG_06_DP.exe
