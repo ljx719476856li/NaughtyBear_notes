@@ -1,2 +1,11 @@
-﻿  源.cpp
-  NaughtyBear3D.vcxproj -> G:\Documents\NaughtyBear3D\NaughtyBear3D\Debug\NaughtyBear3D.exe
+﻿  BearMatrix.cpp
+g:\documents\github\naughtybearleetcode\naughtybear3d\naughtybear3d\naughtybear3d\bearmatrix.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
+g:\documents\github\naughtybearleetcode\naughtybear3d\naughtybear3d\naughtybear3d\bearmatrix.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+g:\documents\github\naughtybearleetcode\naughtybear3d\naughtybear3d\naughtybear3d\bearmatrix.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
+g:\documents\github\naughtybearleetcode\naughtybear3d\naughtybear3d\naughtybear3d\bearmatrix.cpp(49): warning C4018: “<”: 有符号/无符号不匹配
+g:\documents\github\naughtybearleetcode\naughtybear3d\naughtybear3d\naughtybear3d\bearmatrix.cpp(51): warning C4018: “<”: 有符号/无符号不匹配
+g:\documents\github\naughtybearleetcode\naughtybear3d\naughtybear3d\naughtybear3d\bearmatrix.cpp(64): warning C4018: “<”: 有符号/无符号不匹配
+g:\documents\github\naughtybearleetcode\naughtybear3d\naughtybear3d\naughtybear3d\bearmatrix.cpp(66): warning C4018: “<”: 有符号/无符号不匹配
+  源.cpp
+  正在生成代码...
+  NaughtyBear3D.vcxproj -> G:\Documents\GitHub\NaughtyBearLeetCode\NaughtyBear3D\NaughtyBear3D\Debug\NaughtyBear3D.exe

@@ -1,5 +1,5 @@
 #pragma once
-#pragma once
+#include <iostream>
 #include <vector>
 #include <algorithm>
 using std::vector;
@@ -20,7 +20,11 @@ public:
 	};
 
 public:
-	BearMatrix() { matrix.resize(4);	matrix[0].resize(4); }
+	BearMatrix() 
+	{ 
+		matrix.resize(4, {0, 0, 0, 0});
+		std::cout << "构造函数" << std::endl;
+	}
 	BearMatrix(float a1, float a2, float a3, float a4,
 		float b1, float b2, float b3, float b4,
 		float c1, float c2, float c3, float c4,
@@ -37,11 +41,17 @@ public:
 	}
 	BearMatrix& operator = (const BearMatrix& m)
 	{
-		if(matrix != m.matrix)
+		if (matrix != m.matrix)
 			matrix = m.matrix;
 		return *this;
+	}	
+	BearMatrix& operator = (const vector<vector<float>>& m)
+	{
+		if (matrix != m)
+			matrix = m;
+		return *this;
 	}
-
+	~BearMatrix() { std::cout << "析构函数" << std::endl; }
 public:
 	//单位化
 	void Identity();
@@ -50,7 +60,7 @@ public:
 	//等于重载
 	bool	operator ==(const BearMatrix& m) const;
 	//+ 运算符重载
-	BearMatrix operator+(const BearMatrix& m) const;
+	BearMatrix&& operator+(const BearMatrix& m) const;
 	//- 运算符重载
 	BearMatrix operator - (const BearMatrix& m) const;
 	//* 运算符重载
