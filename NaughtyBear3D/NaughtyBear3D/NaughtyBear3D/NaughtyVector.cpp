@@ -1,16 +1,40 @@
 #include "NaughtyVector.h"
 
-//向量长度
-float NaughtyVector::Length()const { return 0; }
 
+//向量长度
+float NaughtyVector::Length()const 
+{ 
+	float sq = x*x + y*y + z*z;
+	return static_cast<float>(sqrt(sq));
+}
 //归一化
-NaughtyVector NaughtyVector::Normalize() { return NaughtyVector(1, 2, 3, 4); }
+NaughtyVector NaughtyVector::Normalize() 
+{ 
+	float length = Length(); //获取到向量的长度，也就是模
+	if (length != 0.0f)
+	{
+		float inv = 1.0f / length;
+		x *= inv;
+		y *= inv;
+		z *= inv;
+	}
+}
 
 //点乘，描述两个向量的相似程度 |a||b|cosθ 
-float NaughtyVector::Dot(const NaughtyVector& v) const { return y; }
+float NaughtyVector::Dot(const NaughtyVector& v) const 
+{
+	return x * v.x + y * v.y + z * v.z;
+}
 
 //叉乘(叉乘得到的向量垂直于原来的两个向量)
-NaughtyVector NaughtyVector::Cross(const NaughtyVector& v) const { return v; }
+NaughtyVector NaughtyVector::Cross(const NaughtyVector& v) const 
+{
+	float m1 = y * v.z - z * v.y;
+	float m2 = z * v.x - x * v.z;
+	float m3 = x * v.y - y * v.x;
+
+	return NaughtyVector(m1, m2, m3, 0.0f);
+}
 
 //== 运算重载
 bool NaughtyVector::operator == (const NaughtyVector& v) const { return true; }
