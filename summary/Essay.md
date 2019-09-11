@@ -21,7 +21,7 @@ true|false|false|
 false|true|false|
 false|true|false|
 #### 文氏图
-![文氏图](https://raw.githubusercontent.com/huihut/interview/master/images/CPU-Little-Endian.svg.png)  
+![文氏图](https://github.com/ljx719476856li/NaughtyBear_notes/tree/master/summary/Img2/02.png)
 ### 逻辑或 —— A或者B
 命题“A或者B”用逻辑表达式写作: A ∨ B (A or B)
 
@@ -33,7 +33,7 @@ true|false|true|
 false|true|true|
 false|false|false|
 #### 文氏图
-![文氏图](https://raw.githubusercontent.com/huihut/interview/master/images/CPU-Little-Endian.svg.png)  
+![文氏图](https://github.com/ljx719476856li/NaughtyBear_notes/tree/master/summary/Img2/03.png)
 ### 异或 —— A或者B(但不都满足)
 命题“A或者B(但不都满足)”用逻辑表达式写作: A ⊕ B
 
@@ -45,7 +45,7 @@ true|false|true|
 false|true|true|
 false|false|false|
 #### 文氏图
-![文氏图](https://raw.githubusercontent.com/huihut/interview/master/images/CPU-Little-Endian.svg.png)  
+![文氏图](https://github.com/ljx719476856li/NaughtyBear_notes/tree/master/summary/Img2/04.png)
 ### 等于 —— A和B相等
 命题“A和B相等”用逻辑表达式写作: A = B
 
@@ -57,7 +57,7 @@ true|false|false|
 false|true|false|
 false|false|true|
 #### 文氏图
-![文氏图](https://raw.githubusercontent.com/huihut/interview/master/images/CPU-Little-Endian.svg.png)  
+![文氏图](https://github.com/ljx719476856li/NaughtyBear_notes/tree/master/summary/Img2/05.png) 
 ### 蕴涵 —— 若A则B
 命题“若A则B”用逻辑表达式写作: A => B
 
@@ -69,7 +69,7 @@ true|false|false|
 false|true|true|
 false|false|true|
 #### 文氏图
-![文氏图](https://raw.githubusercontent.com/huihut/interview/master/images/CPU-Little-Endian.svg.png)  
+![文氏图](https://github.com/ljx719476856li/NaughtyBear_notes/tree/master/summary/Img2/06.png) 
 ### 德•摩根定律
 * true ↔ false
 * A ↔ -A
